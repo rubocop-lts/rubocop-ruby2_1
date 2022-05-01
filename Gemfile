@@ -20,7 +20,7 @@ gem "pry", platforms: %i[mri jruby]
 platforms :mri do
   if linting
     gem "rubocop-md", "0.2.0", require: false
-    gem "rubocop-rspec", "1.32.0", require: false
+    gem "rubocop-rspec", "1.27.0", require: false
     gem "rubocop-thread_safety", "~> 0.4", require: false
   end
 end
