@@ -13,6 +13,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 
+## [1.0.1] 2022-05-02
+### Added
+* Documentation
+
+### Changed
+* Rubocop lock 0.57.0 => 0.57.2
+
+### Fixed
+
+### Removed
+
 ## [1.0.0] 2022-05-01
 ### Added
 * Initial release
@@ -23,5 +34,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 
-[Unreleased]: https://github.com/rubocop-semver/rubocop-ruby2_1/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/rubocop-semver/rubocop-ruby2_1/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/rubocop-semver/rubocop-ruby2_1/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/rubocop-semver/rubocop-ruby2_1/compare/e23c1cb798e1198c7b2dcca40a586b5ad6294348...v1.0.0
