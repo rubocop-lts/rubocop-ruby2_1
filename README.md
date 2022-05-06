@@ -1,9 +1,9 @@
 <p align="center">
     <a href="https://rubocop.org#gh-light-mode-only"  target="_blank" rel="noopener">
-      <img width="120px" src="https://github.com/rubocop-semver/rubocop-ruby2_1/raw/main/docs/images/logo/rubocop-light.svg?raw=true" alt="PNG Rubocop Logo, Copyright (c) 2014 Bozhidar Batsov, MIT License, SVG Rubocop Logo, Gil Barbara, CC0">
+      <img width="120px" src="https://github.com/rubocop-semver/rubocop-ruby2_1/raw/main/docs/images/logo/rubocop-light.svg?raw=true" alt="PNG RuboCop Logo, Copyright (c) 2014 Bozhidar Batsov, MIT License, SVG RuboCop Logo, Gil Barbara, CC0">
     </a>
     <a href="https://rubocop.org#gh-dark-mode-only"  target="_blank" rel="noopener">
-      <img width="120px" src="https://github.com/rubocop-semver/rubocop-ruby2_1/raw/main/docs/images/logo/rubocop-dark.svg?raw=true" alt="SVG Rubocop Logo, Copyright (c) 2014 Bozhidar Batsov, MIT License, SVG Rubocop Logo, Roberto Huertas, MIT">
+      <img width="120px" src="https://github.com/rubocop-semver/rubocop-ruby2_1/raw/main/docs/images/logo/rubocop-dark.svg?raw=true" alt="SVG RuboCop Logo, Copyright (c) 2014 Bozhidar Batsov, MIT License, SVG RuboCop Logo, Roberto Huertas, MIT">
     </a>
     <a href="https://www.ruby-lang.org/" target="_blank" rel="noopener">
       <img width="120px" src="https://github.com/rubocop-semver/rubocop-ruby2_1/raw/main/docs/images/logo/ruby-logo.svg?raw=true" alt="Yukihiro Matsumoto, Ruby Visual Identity Team, CC BY-SA 2.5">
@@ -84,7 +84,7 @@ This has the same effect as you declaring the following in your `.rubocop.yml`:
 AllCops:
   # remove if already present in your `.rubocop.yml` to gain the full benefit of this gem!
   TargetRubyVersion: 2.1
-  # The sibling gems for newer versions of Ruby support the NewCops directive as soon as Rubocop adds it.
+  # The sibling gems for newer versions of Ruby support the NewCops directive as soon as RuboCop adds it.
   # NewCops: enable
 
 # Removed as of 0.80.0
@@ -99,17 +99,17 @@ Style/BracesAroundHashParameters:
 
 Let's talk about these settings.
 
-## TargetRubyVersion
+### TargetRubyVersion
 
 Allowing this gem to manage the target ruby version means you can switch to a different gem within the family when you upgrade to the next version of Ruby, and have nothing else to change.  A single line in the `Gemfile`, and you are done.
 
-## NewCops: enable
+### NewCops: enable
 
 If you want to use this you'll have to upgrade to Ruby >= 2.4 and use the appropriate sibling gem, e.g. [`rubocop-ruby2_4`][2-4].
 
 [2-4]: https://github.com/rubocop-semver/rubocop-ruby2_4
 
-## Style/BracesAroundHashParameters
+### Style/BracesAroundHashParameters
 
 In an effort to help users of this gem prepare their code for more modern Rubies it has been enabled and configured with `coontext_dependent` as the closest parallel to what will work with Ruby 2.7+.
 
@@ -117,6 +117,10 @@ See:
 
 * https://github.com/rubocop/rubocop/issues/7641
 * https://github.com/rubocop/rubocop/pull/7643
+
+### Upgrading from rubocop-ruby1_9 or rubocop-ruby2_0
+
+At `rubocop 0.53.0`, which is in between the version locked by `rubocop-ruby2_0` (`0.50.0`) and the version locked by this gem (`0.57.2`), the cop `Style/TrailingCommaInLiteral` was split into `Style/TrailingCommaInArrayLiteral` and `Style/TrailingCommaInHashLiteral`.
 
 ## Development
 
