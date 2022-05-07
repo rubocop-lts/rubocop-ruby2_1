@@ -37,9 +37,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 * Initial release
 
-[Unreleased]: https://github.com/rubocop-semver/rubocop-ruby2_1/compare/v1.0.4...HEAD
-[1.0.4]: https://github.com/rubocop-semver/rubocop-ruby2_1/compare/v1.0.3...v1.0.4
-[1.0.3]: https://github.com/rubocop-semver/rubocop-ruby2_1/compare/v1.0.2...v1.0.3
-[1.0.2]: https://github.com/rubocop-semver/rubocop-ruby2_1/compare/v1.0.1...v1.0.2
-[1.0.1]: https://github.com/rubocop-semver/rubocop-ruby2_1/compare/v1.0.0...v1.0.1
-[1.0.0]: https://github.com/rubocop-semver/rubocop-ruby2_1/compare/e23c1cb798e1198c7b2dcca40a586b5ad6294348...v1.0.0
+[Unreleased]: https://github.com/rubocop-lts/rubocop-ruby2_1/compare/v1.0.4...HEAD
+[1.0.4]: https://github.com/rubocop-lts/rubocop-ruby2_1/compare/v1.0.3...v1.0.4
+[1.0.3]: https://github.com/rubocop-lts/rubocop-ruby2_1/compare/v1.0.2...v1.0.3
+[1.0.2]: https://github.com/rubocop-lts/rubocop-ruby2_1/compare/v1.0.1...v1.0.2
+[1.0.1]: https://github.com/rubocop-lts/rubocop-ruby2_1/compare/v1.0.0...v1.0.1
+[1.0.0]: https://github.com/rubocop-lts/rubocop-ruby2_1/compare/e23c1cb798e1198c7b2dcca40a586b5ad6294348...v1.0.0
