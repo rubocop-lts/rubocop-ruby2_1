@@ -146,7 +146,7 @@ that have been shown over years to reduce problems.
 Each [spring `rubocop` drops][rubocop-support-matrix] the ability to **install** and **run** `rubocop` on an EOL'd Ruby.
 Eventually `rubocop` will drop the ability to **analyze code** intended to support an EOL'd Ruby,
 as they already have for Ruby 1.9. RuboCop has never run properly on Ruby 1.8.
-This gem, via [standard (Standard Ruby)][standardrb], allows RuboCop to analyze Ruby 2.0 code,
+This gem, via [standard (Standard Ruby)][standardrb], allows RuboCop to analyze Ruby 2.1 code,
 by turning off certain rules that only apply to later Rubies.
 
 When the `rubocop` team makes _any_ of these changes they
