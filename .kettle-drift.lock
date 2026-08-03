@@ -1,0 +1,108 @@
+{
+  "- gem: kramdown\ndirect: rubocop-ruby2_1.gemspec": [
+    {
+      "file": ".structuredmerge/kettle-jem.yml",
+      "lines": [
+        97,
+        122
+      ]
+    }
+  ],
+  "- gem: rspec_junit_formatter\ndirect: rubocop-ruby2_1.gemspec": [
+    {
+      "file": ".structuredmerge/kettle-jem.yml",
+      "lines": [
+        102,
+        127
+      ]
+    }
+  ],
+  "- gem: rubocop-lts-rspec\ndirect: rubocop-ruby2_1.gemspec": [
+    {
+      "file": ".structuredmerge/kettle-jem.yml",
+      "lines": [
+        107,
+        132
+      ]
+    }
+  ],
+  "- gem: rubocop-packaging\ndirect: rubocop-ruby2_1.gemspec": [
+    {
+      "file": ".structuredmerge/kettle-jem.yml",
+      "lines": [
+        112,
+        137
+      ]
+    }
+  ],
+  "- gem: yard\ndirect: rubocop-ruby2_1.gemspec": [
+    {
+      "file": ".structuredmerge/kettle-jem.yml",
+      "lines": [
+        117,
+        142
+      ]
+    }
+  ],
+  "action: review\nreason: \"\"": [
+    {
+      "file": ".structuredmerge/kettle-jem.yml",
+      "lines": [
+        100,
+        105,
+        110,
+        115,
+        120
+      ]
+    }
+  ],
+  "direct: rubocop-ruby2_1.gemspec\nmodular: gemfiles/modular/documentation.gemfile": [
+    {
+      "file": ".structuredmerge/kettle-jem.yml",
+      "lines": [
+        98,
+        118,
+        123,
+        143
+      ]
+    }
+  ],
+  "direct: rubocop-ruby2_1.gemspec\nmodular: gemfiles/modular/rspec.gemfile": [
+    {
+      "file": ".structuredmerge/kettle-jem.yml",
+      "lines": [
+        103,
+        128
+      ]
+    }
+  ],
+  "direct: rubocop-ruby2_1.gemspec\nmodular: gemfiles/modular/style.gemfile": [
+    {
+      "file": ".structuredmerge/kettle-jem.yml",
+      "lines": [
+        108,
+        113,
+        133,
+        138
+      ]
+    }
+  ],
+  "modular: gemfiles/modular/documentation.gemfile\naction: review": [
+    {
+      "file": ".structuredmerge/kettle-jem.yml",
+      "lines": [
+        99,
+        119
+      ]
+    }
+  ],
+  "modular: gemfiles/modular/style.gemfile\naction: review": [
+    {
+      "file": ".structuredmerge/kettle-jem.yml",
+      "lines": [
+        109,
+        114
+      ]
+    }
+  ]
+}
