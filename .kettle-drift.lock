@@ -1,78 +1,10 @@
 {
-  "- gem: kramdown\ndirect: rubocop-ruby2_1.gemspec": [
-    {
-      "file": ".structuredmerge/kettle-jem.yml",
-      "lines": [
-        99,
-        124
-      ]
-    }
-  ],
-  "- gem: rspec_junit_formatter\ndirect: rubocop-ruby2_1.gemspec": [
-    {
-      "file": ".structuredmerge/kettle-jem.yml",
-      "lines": [
-        104,
-        129
-      ]
-    }
-  ],
-  "- gem: rubocop-lts-rspec\ndirect: rubocop-ruby2_1.gemspec": [
-    {
-      "file": ".structuredmerge/kettle-jem.yml",
-      "lines": [
-        109,
-        134
-      ]
-    }
-  ],
-  "- gem: rubocop-packaging\ndirect: rubocop-ruby2_1.gemspec": [
-    {
-      "file": ".structuredmerge/kettle-jem.yml",
-      "lines": [
-        114,
-        139
-      ]
-    }
-  ],
-  "- gem: yard\ndirect: rubocop-ruby2_1.gemspec": [
-    {
-      "file": ".structuredmerge/kettle-jem.yml",
-      "lines": [
-        119,
-        144
-      ]
-    }
-  ],
-  "action: review\nreason: \"\"": [
-    {
-      "file": ".structuredmerge/kettle-jem.yml",
-      "lines": [
-        102,
-        107,
-        112,
-        117,
-        122
-      ]
-    }
-  ],
   "direct: rubocop-ruby2_1.gemspec\nmodular: gemfiles/modular/documentation.gemfile": [
     {
       "file": ".structuredmerge/kettle-jem.yml",
       "lines": [
-        100,
-        120,
-        125,
-        145
-      ]
-    }
-  ],
-  "direct: rubocop-ruby2_1.gemspec\nmodular: gemfiles/modular/rspec.gemfile": [
-    {
-      "file": ".structuredmerge/kettle-jem.yml",
-      "lines": [
-        105,
-        130
+        112,
+        132
       ]
     }
   ],
@@ -80,28 +12,8 @@
     {
       "file": ".structuredmerge/kettle-jem.yml",
       "lines": [
-        110,
-        115,
-        135,
-        140
-      ]
-    }
-  ],
-  "modular: gemfiles/modular/documentation.gemfile\naction: review": [
-    {
-      "file": ".structuredmerge/kettle-jem.yml",
-      "lines": [
-        101,
-        121
-      ]
-    }
-  ],
-  "modular: gemfiles/modular/style.gemfile\naction: review": [
-    {
-      "file": ".structuredmerge/kettle-jem.yml",
-      "lines": [
-        111,
-        116
+        122,
+        127
       ]
     }
   ]
